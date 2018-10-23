@@ -1,0 +1,54 @@
+.dropDown {
+	position: fixed;
+	top: 70px;
+	right: 20px;
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #2d7992;
+	border-radius: 4px;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,.20);
+	z-index: 1001;
+}
+
+.dropDown ul {
+	margin-top: 20px;
+}
+
+.dropDown ul li {
+	list-style-type: none;
+	padding: 20px 20px;
+	border-bottom: 1px solid #ebeef4;
+	background-color: none;
+	transition: background-color 0.5s ease;
+}
+.dropDown ul li:hover {
+	background-color:  #ebeef4;
+	cursor: pointer;
+}
+
+.dropDown ul li:last-child {
+	border-bottom: none;
+}
+
+.pic {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+.profileDropDown li{
+	text-align: center;
+}
+
+.unread {
+	background-color: rgba(255,0,0,0.8);
+	border-radius: 100%;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	padding-top: 3px;
+	padding-left: 1px;
+	padding-right: 2px;
+	color: #fff;
+}

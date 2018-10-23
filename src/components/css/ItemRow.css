@@ -1,0 +1,94 @@
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 350px;
+    border-bottom: 1px solid #ebeef4;
+    margin: 10px auto;
+    padding: 18px;
+}
+
+.left .item-row {
+    padding-left: 0;
+}
+
+.legend-box {
+    width: 21%;
+    /* align-self: flex-start; */
+}
+.legend-box a {
+    font-size: 10px;
+    cursor: pointer;
+    display: block;
+    padding: 5px 0;
+    color: red;
+}
+
+.legend-box.donut {
+     width: 40%;
+     align-items: flex-end;
+}
+
+.legend-box.donut li {
+    width: 21%;
+}
+
+
+.legend-box .legend {
+    font-size: 12px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+.legend li span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    margin-bottom: -2px;
+    margin-top: 2px;
+}
+
+.legend .trend {
+    background-color: #ebf6fa;
+}
+
+.legend .current {
+    background-color: #565656;
+}
+
+.legend .website {
+    background-color: rgb(153, 0, 153);
+}
+
+.legend .video {
+    background-color: rgb(51, 102, 204);
+}
+
+.legend .gaming {
+    background-color: rgb(220, 57, 18);
+}
+
+.legend .content-downstream {
+    background-color: rgb(255, 153, 0);
+}
+
+.legend .content-upstream {
+    background-color: rgb(16, 150, 24);
+}
+
+.legend .voip {
+    background-color: rgb(151, 56, 80);
+}
+
+.graph {
+    width: 75%;
+    height: 300px;
+}
+
+.graph .label-bottom {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 40px;
+    padding: 10px 0;
+}

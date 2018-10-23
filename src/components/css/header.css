@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('/font/fontello.eot?88416176');
+    src: url('/font/fontello.eot?88416176#iefix') format('embedded-opentype'),
+        url('/font/fontello.woff?88416176') format('woff'),
+        url('/font/fontello.ttf?88416176') format('truetype'),
+        url('/font/fontello.svg?88416176#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header {
+    background-color: #535555;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+}
+
+#navTop {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/static/header-bg.svg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    width: 170px;
+    margin-left: 14px;
+}
+
+#navIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+#navIcons a,
+#navIcons a:active,
+#navIcons a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#mainNav {
+    background-color: #2d7992;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    padding-top: 70px;
+}
+
+#mainNav a,
+#mainNav a:active,
+#mainNav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#mainNav a:first-child {
+    visibility: hidden;
+    width: 0;
+    transform: rotate(270deg);
+    padding: 0;
+}
+
+#mainNav a {
+    padding: 18px 24px;
+    white-space: nowrap;
+    background-color: #2d7992;
+    transition: background-color 0.25s linear;
+}
+
+#mainNav a:hover {
+    background-color: #26687d;
+}
+
+.demoIcon {
+    font-family: 'fontello';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    color: #fff;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: 0.2em;
+
+    /* You can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.iconMail {
+    font-size: 128%;
+}
+
+.iconQuestionCircleO {
+    font-size: 130%;
+}
+
+.iconUserCircleO {
+    font-size: 115%;
+}
+
+.iconChat1 {
+    color: #333333;
+    font-size: 80%;
+    margin-top: -15px;
+    display: inline-block;
+}

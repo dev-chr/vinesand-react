@@ -1,0 +1,60 @@
+@media (max-width: 940px) {
+    #container {
+        display: block;
+    }
+
+    #container .left {
+        display: block;
+        width: 100%;
+    }
+
+    #container .right {
+        display: block;
+        width: 100%;
+    }
+    #mainNav {
+        background-color: #2d7992;
+        flex-flow: row wrap;
+        height: auto;
+    }
+    #mainNav a:first-child {
+        padding: 18px 20px;
+        visibility: visible;
+        width: auto;
+    }
+    #mainNav a:not(:first-child) {
+        display: none;
+    }
+    .community-chat {
+        margin-top: -60px;
+    }
+    .filter {
+        align-self: center;
+        margin-left: -50px;
+        margin-top: -70px;
+    }
+    .item-row {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .graph {
+        width: 100%;
+    }
+    .legend-box {
+        width: 100%;
+        text-align: center;
+    }
+    .legend-box h3,
+    .legend-box li{
+        display: inline;
+        padding: 15px;
+    }
+    .legend-box.donut li,
+    .legend-box.donut h3{
+        text-align: left;
+        display: block;
+        padding: 0;
+        align-self: flex-end;
+    }
+}

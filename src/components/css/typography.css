@@ -1,0 +1,24 @@
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.box-stat {
+  font-size: 18px;
+  font-weight: bold;
+}
+.box-unit {
+  font-size: 12px;
+}
+

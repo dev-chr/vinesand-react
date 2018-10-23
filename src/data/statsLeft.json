@@ -1,0 +1,24 @@
+[{
+	"title":"Peak Received",
+	"value": 224.5,
+	"units":"Gbps",
+	"percentage": "(50.2%)"
+},
+{
+	"title":"Peak Sent",
+	"value": 154.7,
+	"units":"Gbps",
+	"percentage": "(40.6%)"
+},
+{
+	"title":"On Network",
+	"value": 239.9,
+	"units":"Gbps",
+	"percentage": "(50.2%)"
+},
+{
+	"title":"Off Network",
+	"value": 187.7,
+	"units":"Gbps",
+	"percentage": "(40.8%)"
+}]
